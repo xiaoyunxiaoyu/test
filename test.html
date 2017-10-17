@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T测试</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            margin:200px 200px;
+            box-shadow:0px 0px 20px rgba(0,0,0,0.5) inset;
+            background:url("images/20170604005520.jpg") no-repeat 50% 50%;
+            border-radius:50%;
+            overflow:hidden;
+        }
+        .gle{
+            width: 0;
+            height: 0;
+            margin:10px 10px;
+            border: 10px solid #000;
+            border-color:#fff #fff #999 #fff;
+        }
+        p{
+            width: 50px;  /*必须设置宽度*/
+            overflow: hidden;  /*溢出隐藏*/
+            text-overflow: ellipsis; /*以省略号...显示*/
+            white-space: nowrap;  /*强制不换行*/
+        }
+        .jinlingtu{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            /*background:url("images/sprite_fs@1x.png") -5px -74px no-repeat;*/
+            background:url("images/sprite_index@1x.png") no-repeat;
+            top: -8px;
+            left: -30px;
+        }
+        .is{
+            width: 4px;
+            height: 12px;
+            line-height: 4px;
+        }
+        .is>.i{
+            font-style:normal;
+            display:inline-block;
+            width: 4px;
+            height: 4px;
+            background:#440106;
+            border-radius:100%;
+        }
+        .is>.s{
+            text-decoration:none;
+            display:inline-block;
+            width: 4px;
+            height: 4px;
+            background:#440106;
+            border-radius:100%;
+            /*margin-bottom: 0;*/
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="gle"></div>
+</div>
+<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+<div class="jinlingtu"></div>
+<div class="is"><i class="i"></i><s class="s"></s></div>
+</body>
+</html>
